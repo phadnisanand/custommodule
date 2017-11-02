@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anand
+    - node.type.book_detail
+  module:
+    - text
+id: node.book_detail.field_anand
+field_name: field_anand
+entity_type: node
+bundle: book_detail
+label: 'Brand Test'
+description: 'Add additoanal'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
